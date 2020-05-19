@@ -1,0 +1,13 @@
+<span *ngFor="let superhero of superheros">
+    <hr>
+    <h2>Superhero</h2>
+    <hr>
+    <p>Name: {{superhero.name}}</p>
+    <hr>
+    <p>aka: {{superhero.alterEgo}}</p>
+    <hr>
+    <p>Superpowers: {{superhero.superpowers}}</p>
+    <hr>
+    <button (click)="callHero()">Help</button>
+    <hr>
+</span>
